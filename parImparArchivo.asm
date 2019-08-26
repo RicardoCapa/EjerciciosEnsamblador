@@ -15,7 +15,7 @@
 %endmacro
 
 section .data
-	mensaje db "Leer un archivo en el disco duro y sacar el mayor",10
+	mensaje db "Leer un archivo en el disco duro y determinar si es par o impar",10
 	len_mensaje equ $- mensaje
 
 	mensaje2 db "Lo guardado en el archivo es: ",10
